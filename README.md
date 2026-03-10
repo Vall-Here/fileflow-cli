@@ -24,10 +24,10 @@
 
 ```bash
 # Install globally from npm
-npm install -g fileflow-cli
+npm install fileflow-cli
 
 # Or clone and link locally
-git clone https://github.com/yourusername/fileflow-cli
+git clone https://github.com/Vall-Here/fileflow-cli.git
 cd fileflow-cli
 npm install
 npm link
