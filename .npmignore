@@ -1,18 +1,30 @@
-src/
-test/
+# Test files 
 tests/
+test/
 __tests__/
+coverage/
+*.test.js
 
+# Dev config files
+.eslintrc
+.eslintrc.cjs
+.eslintrc.js
+.prettierrc
+jest.config.js
+tsconfig.json
+COPILOT_PROMPTS_FILEFLOW.md
+
+# Environment & secrets
+.env
+.env.local
+.env.*
+
+# Git & CI
 .git
 .github
 .gitignore
 
-.eslintrc
-.prettierrc
-jest.config.js
-tsconfig.json
-
-.env
-.env.local
-
+# Misc
 docs/
+*.log
+.DS_Store

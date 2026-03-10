@@ -22,11 +22,38 @@
 
 ## Installation
 
+### Global install (recommended)
+Install once, use `fileflow` anywhere on your system:
 ```bash
-# Install globally from npm
 npm install -g fileflow-clitool
+```
+```bash
+# Then use directly:
+fileflow --help
+fileflow organize ./downloads
+fileflow rename ./photos --find "IMG_" --replace "photo_"
+```
 
-# Or clone and link locally
+### Local install (per project)
+Install into a specific project folder:
+```bash
+npm install fileflow-clitool
+```
+```bash
+# Use via npx (no -g required):
+npx fileflow --help
+npx fileflow organize ./downloads
+npx fileflow rename ./photos --find "IMG_" --replace "photo_"
+```
+
+| | Global (`-g`) | Local (no `-g`) |
+|---|---|---|
+| Command | `fileflow ...` | `npx fileflow ...` |
+| Available from | Anywhere | Only inside that project folder |
+| Best for | End users | Scripts / CI pipelines |
+
+### Clone and link locally (for development)
+```bash
 git clone https://github.com/Vall-Here/fileflow-cli.git
 cd fileflow-cli
 npm install
