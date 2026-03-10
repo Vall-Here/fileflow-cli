@@ -1,5 +1,5 @@
 {
-  "name": "fileflow-cli",
+  "name": "fileflow-clitool",
   "version": "1.0.1",
   "description": "A smart CLI tool to organize files, bulk rename, convert data formats, and automate repetitive file tasks.",
   "repository": {

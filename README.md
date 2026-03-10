@@ -24,7 +24,7 @@
 
 ```bash
 # Install globally from npm
-npm install fileflow-cli
+npm install fileflow-clitool
 
 # Or clone and link locally
 git clone https://github.com/Vall-Here/fileflow-cli.git
