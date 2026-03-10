@@ -1,4 +1,4 @@
-# 🚀 FileFlow CLI
+# FileFlow CLI
 
 > A smart command-line tool to automate repetitive file tasks — organize, rename, convert, and find duplicates in seconds.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Command | Description |
 |---|---|
@@ -20,7 +20,7 @@
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Install globally from npm
@@ -35,7 +35,7 @@ npm link
 
 ---
 
-## 🔧 Usage
+## Usage
 
 ### `organize` — Sort files into folders
 
@@ -138,7 +138,7 @@ fileflow watch ./inbox --by date
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 fileflow-cli/
@@ -163,7 +163,7 @@ fileflow-cli/
 
 ---
 
-## 🧪 Development
+## Development
 
 ```bash
 # Run tests
@@ -194,7 +194,7 @@ node bin/fileflow.js organize ./test-folder
 
 ---
 
-## 📋 Roadmap
+## Roadmap
 
 - [ ] Config file support (`.fileflowrc`)
 - [ ] Plugin system for custom actions
@@ -204,13 +204,13 @@ node bin/fileflow.js organize ./test-folder
 
 ---
 
-## 📄 License
+## License
 
 MIT © [Ahmad Noval](https://github.com/vall-here)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests welcome! Please open an issue first to discuss major changes.
 
